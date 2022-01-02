@@ -74,6 +74,7 @@
         
         .intro {
             background: #000 url("../images/intro-bg.jpg")no-repeat center/cover;
+            margin-bottom: 30px;
         }
         
         .intro__inner {
@@ -212,4 +213,17 @@
         
         .btn-orange {
             background-image: linear-gradient(to right, #FF903E, #FF2c2c);
+        }
+        
+        .section {
+            padding: 60px;
+        }
+        
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .services__item {
+            width: 25%;
         }
