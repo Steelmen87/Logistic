@@ -23,7 +23,12 @@
             margin: 0 0 10px;
         }
         
-        pa ol,
+        a {
+            text-decoration: none;
+        }
+        
+        p,
+        ol,
         ul {
             margin: 0;
             padding: 0;
@@ -196,10 +201,10 @@
         
         .btn {
             display: inline-block;
-            vertical-align: top;
+            vertical-align: middle;
             line-height: 1.1;
             cursor: pointer;
-            padding: 11px 20px;
+            padding: 15px 45px;
             font-family: 'PT Sans', sans-serif;
             font-size: 18px;
             color: white;
@@ -221,6 +226,23 @@
         
         .section {
             padding: 60px;
+        }
+        
+        .section--map {
+            background: url("../images/map.svg")no-repeat left 30px top 130px;
+        }
+        
+        .section__title {
+            font-family: 'Lato', sans-serif;
+            font-size: 45px;
+            color: #2c2c2c;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 40px;
+        }
+        
+        .section__title span {
+            color: #0D53F2;
         }
         
         .services {
@@ -299,4 +321,38 @@
         .services__link:hover:after {
             width: 100%;
             background-color: #FF3E2f;
+        }
+        
+        .clients {
+            display: flex;
+            margin-bottom: 60px;
+        }
+        
+        .clients__logos {
+            width: 60%;
+        }
+        
+        .clients__reviews {
+            width: 40%;
+        }
+        
+        .clients__list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .clients__list li {
+            margin-right: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .clients-love {
+            display: inline-block;
+            background: url("../images/heart.svg")no-repeat left 20px top;
+            font-size: 18px;
+            color: #464646;
+            margin-left: 40px;
+            min-height: 47px;
+            padding-top: 5px;
         }
