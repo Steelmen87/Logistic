@@ -414,8 +414,8 @@
         }
         .reviews__content p {
              margin-bottom: 20px;
+             text-indent: 20px;
+
         }
 
-        .reviews__content p:first-line {
-             text-indent: 20px;
-        }
+        
