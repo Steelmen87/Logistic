@@ -6,6 +6,10 @@ body {
     line-height: 1.4;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
+
 *,
 *:before,
 *:after {
@@ -211,6 +215,31 @@ ul {
 
 .input--email {
     background: url("../images/mail-icon.svg") no-repeat left 15px top 6px;
+}
+
+.input--dark {
+    color: #2c2c2c;
+    border-bottom-color: #e8e8e8;
+}
+
+.input--dark:focus {
+    border-bottom-color: #000000;
+}
+
+.input--dark.input--user {
+    background-image: url("../images/user-black-icon.svg");
+}
+
+.input--dark.input--email {
+    background-image: url("../images/mail-black-icon.svg");
+}
+
+.input--dark.input--phone {
+    background-image: url("../images/phone-black-icon.svg");
+}
+
+.input--dark::placeholder {
+    color: #2c2c2c;
 }
 
 /* BTN */
@@ -683,7 +712,7 @@ ul {
 }
 
 .footer {
-    margin-top:60px;
+    margin-top: 60px;
     padding: 40px 0;
     background-color: #F9F9F9;
     background-image: url("../images/tire-left.svg"),
@@ -733,13 +762,79 @@ ul {
 }
 
 
+/*Modal*/
 
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    height: 100%;
 
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
 
+.modal__inner {
+    width: 400px;
+    padding: 25px;
+    background-color: #fff;
+}
 
+.modal__header {
+    margin-bottom: 25px;
+    text-align: center;
+}
 
+.modal__title {
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #004AF2;
+    font-weight: 900;
+    line-height: 1.2;
 
+}
+
+.modal__text {
+    font-family: 'PT', sans-serif;
+    font-size: 15px;
+    color: #2c2c2c;
+
+}
+
+.modal__footer {
+    text-align: center;
+    margin-top:25px;
+    padding-top:25px;
+    border-top: 1px solid #e8e8e8;
+}
+.modal__footer-title{
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color:#2c2c2c;
+    margin-bottom:10px;
+}
+.modal__contacts{
+    font-style: normal;
+    font-size:15px;
+    color: #2c2c2c;
+}
+.modal__contacts p{
+    margin-bottom: 3px;
+}
+.modal__contacts a {
+    color:inherit;
+}
+.modal__contacts a:hover {
+    text-decoration: underline;
+}
 
 
 
