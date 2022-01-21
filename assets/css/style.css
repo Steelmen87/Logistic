@@ -240,7 +240,8 @@ ul {
 .btn-orange {
     background-image: linear-gradient(to right, #FF903E, #FF2c2c);
 }
-.btn-orange:hover{
+
+.btn-orange:hover {
     background-size: 150%;
     /*background-image: linear-gradient(to right, #eb7d2d, #ef1616);*/
 }
@@ -652,7 +653,7 @@ ul {
 }
 
 .articles__title {
-    font-font: 'PT', sans-serif;
+    font-family: 'PT', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #2C2C2C;
@@ -668,29 +669,68 @@ ul {
 }
 
 .articles__text {
-    font-font: 'PT', sans-serif;
+    font-family: 'PT', sans-serif;
     font-size: 15px;
     color: #585858;
     margin-bottom: 15px;
 }
 
 .articles__date {
-    font-font: 'PT', sans-serif;
+    font-family: 'PT', sans-serif;
     display: block;
     font-size: 12px;
     color: #969191;
 }
 
+.footer {
+    margin-top:60px;
+    padding: 40px 0;
+    background-color: #F9F9F9;
+    background-image: url("../images/tire-left.svg"),
+    url("../images/tire-right.svg");
+    background-repeat: no-repeat;
+    background-position: left -50px bottom -80px,
+    right -50px bottom -80px;
+    text-align: center;
+}
 
+.footer__contacts {
+    margin: 25px 0;
+    text-align: center;
+    font-family: 'PT', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #585858;
+    font-style: normal;
+}
 
+.footer__contacts p {
+    margin: 0 0 5px;
+}
 
+.footer__contacts a {
+    color: inherit;
+    text-decoration: none;
+}
 
+.footer__contacts a:hover {
+    text-decoration: underline;
+}
 
+.footer__nav {
+    font-family: 'PT', sans-serif;
+    font-size: 12px;
+}
 
+.footer__nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #004AF2;
+}
 
-
-
-
+.footer__nav a:hover {
+    text-decoration: underline;
+}
 
 
 
