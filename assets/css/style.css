@@ -3,7 +3,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: #585858;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 *,
@@ -242,6 +242,10 @@ ul {
 
 .section--map {
     background: url("../images/map.svg") no-repeat left 30px top 130px;
+}
+
+.section--grey {
+    background-color: #F9F9F9;
 }
 
 .section__title {
@@ -503,11 +507,62 @@ ul {
     line-height: 1.4;
 }
 
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
 
+.team__col {
+    width: 33.3333%;
+    padding: 0 15px;
+    margin-bottom:30px;
+}
 
+.team__photo {
+    margin-bottom: 22px;
+    box-shadow: 10px 5px 13px rgba(0, 0, 0, .16);
+}
 
+.team__name {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #2C2C2C;
+    font-weight: 900;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
 
+.team__prof {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: #585858;
+    margin-bottom: 11px;
+}
 
+.team__contacts {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585858;
+}
+
+.team__contacts li {
+    margin-bottom: 9px;
+}
+
+.team__contacts a {
+    color: inherit;
+}
+
+.team__contacts a:hover {
+    text-decoration: underline;
+}
+
+.team__contacts-icon {
+    width: 16px;
+    height:auto;
+    padding-right: 7px;
+}
 
 
 
