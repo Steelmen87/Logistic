@@ -229,6 +229,7 @@ ul {
     background: #333;
     border: none;
     border-radius: 5px;
+    transition: background-size .2s linear;
 }
 
 .btn-block {
@@ -238,6 +239,14 @@ ul {
 
 .btn-orange {
     background-image: linear-gradient(to right, #FF903E, #FF2c2c);
+}
+.btn-orange:hover{
+    background-size: 150%;
+    /*background-image: linear-gradient(to right, #eb7d2d, #ef1616);*/
+}
+
+.btn-shadow {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .20);
 }
 
 .section {
@@ -639,7 +648,7 @@ ul {
 .articles__item {
     width: 100%;
     max-width: 500px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .articles__title {
@@ -661,10 +670,11 @@ ul {
 .articles__text {
     font-font: 'PT', sans-serif;
     font-size: 15px;
-    color:#585858;
+    color: #585858;
     margin-bottom: 15px;
 }
-.articles__date{
+
+.articles__date {
     font-font: 'PT', sans-serif;
     display: block;
     font-size: 12px;
