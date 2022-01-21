@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="team ok -&gt; our mission 7">
+    <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="i+">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -51,7 +52,7 @@
       <workItem from="1641140912411" duration="1059000" />
       <workItem from="1641142468616" duration="580000" />
       <workItem from="1642677201623" duration="5471000" />
-      <workItem from="1642710856732" duration="4364000" />
+      <workItem from="1642710856732" duration="7773000" />
     </task>
     <task id="LOCAL-00001" summary="Header intro next Services">
       <created>1641140990497</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642737413039</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="i+">
+      <created>1642737517947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642737517947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
     <MESSAGE value="Next -&gt; ...link" />
     <MESSAGE value="commit 05.15.01" />
     <MESSAGE value="team ok -&gt; our mission 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="team ok -&gt; our mission 7" />
+    <MESSAGE value="i+" />
+    <option name="LAST_COMMIT_MESSAGE" value="i+" />
   </component>
 </project>
