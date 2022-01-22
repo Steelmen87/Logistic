@@ -765,7 +765,8 @@ ul {
 /*Modal*/
 
 .modal {
-    display: flex;
+    display: none;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -780,7 +781,12 @@ ul {
     z-index: 2000;
 }
 
+.modal.show {
+    display: flex;
+}
+
 .modal__inner {
+    position: relative;
     width: 400px;
     padding: 25px;
     background-color: #fff;
@@ -789,6 +795,10 @@ ul {
 .modal__header {
     margin-bottom: 25px;
     text-align: center;
+}
+
+.modal__icon {
+    margin-bottom: 10px;
 }
 
 .modal__title {
@@ -810,31 +820,70 @@ ul {
 
 .modal__footer {
     text-align: center;
-    margin-top:25px;
-    padding-top:25px;
+    margin-top: 25px;
+    padding-top: 25px;
     border-top: 1px solid #e8e8e8;
 }
-.modal__footer-title{
-    font-family: 'Lato',sans-serif;
+
+.modal__footer-title {
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 900;
-    color:#2c2c2c;
-    margin-bottom:10px;
+    color: #2c2c2c;
+    margin-bottom: 10px;
 }
-.modal__contacts{
+
+.modal__contacts {
     font-style: normal;
-    font-size:15px;
+    font-size: 15px;
     color: #2c2c2c;
 }
-.modal__contacts p{
+
+.modal__contacts p {
     margin-bottom: 3px;
 }
+
 .modal__contacts a {
-    color:inherit;
+    color: inherit;
 }
+
 .modal__contacts a:hover {
     text-decoration: underline;
 }
+
+.modal__close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .2s linear;
+
+    top: -20px;
+    right: -30px;
+    z-index: 1;
+}
+
+.modal__close:hover {
+    transform: rotate(90deg);
+}
+
+.modal__close img {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
