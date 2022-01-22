@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="modal need add the cross">
-      <change afterPath="$PROJECT_DIR$/assets/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/user-black-icon.svg" afterDir="false" />
+    <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="modal windows add">
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -43,6 +48,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Music\Volac\Logistic" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +66,7 @@
       <workItem from="1641142468616" duration="580000" />
       <workItem from="1642677201623" duration="5471000" />
       <workItem from="1642710856732" duration="7862000" />
-      <workItem from="1642789637935" duration="9065000" />
+      <workItem from="1642789637935" duration="12798000" />
     </task>
     <task id="LOCAL-00001" summary="Header intro next Services">
       <created>1641140990497</created>
@@ -121,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642798052494</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modal windows add">
+      <created>1642820634713</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642820634713</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +166,7 @@
     <MESSAGE value="next block interesting to read" />
     <MESSAGE value="footer ready" />
     <MESSAGE value="modal need add the cross" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal need add the cross" />
+    <MESSAGE value="modal windows add" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal windows add" />
   </component>
 </project>

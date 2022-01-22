@@ -103,7 +103,10 @@ ul {
     background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;
     margin-bottom: 30px;
 }
-
+.intro--blog{
+    height:350px;
+    background: #000 url("../images/blog-bg.jpg") no-repeat center/cover;
+}
 .intro__inner {
     display: flex;
     height: 600px;
@@ -674,7 +677,14 @@ ul {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
+.articles--column{
+    flex-direction: column;
+}
+.articles--column
+.articles__item{
+    max-width: none;
+    margin-bottom: 45px;
+}
 .articles__item {
     width: 100%;
     max-width: 500px;
@@ -874,9 +884,13 @@ ul {
     display: block;
 }
 
+.main{
+    display: flex;
+}
 
-
-
+.main__col{
+    width: 50%;
+}
 
 
 
