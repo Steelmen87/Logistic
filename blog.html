@@ -17,14 +17,13 @@
 <header class="header">
     <div class="container">
         <div class="header__inner">
-            <img src="assets/images/logo.svg" alt="logo">
+            <a href="index.html">
+                <img src="assets/images/logo.svg" alt="logo">
+            </a>
             <nav class="nav">
-                <a class="nav__link active" href="#">Services</a>
-                <a class="nav__link" href="#">Clients</a>
-                <a class="nav__link" href="#">Benefits</a>
-                <a class="nav__link" href="#">Team</a>
-                <a class="nav__link" href="#">News</a>
-                <a class="nav__link" href="#">Contact Us</a>
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="#">Privacy Policy</a>
+                <a class="nav__link" href="#">Terms &amp; Conditions</a>
             </nav>
         </div>
     </div>
@@ -68,9 +67,36 @@
                         <time class="articles__date" pubdate datetime="21-03-2021">21 March, 2021</time>
                     </article>
                 </div><!--/ articles-->
+                <a href="index.html" class="btn btn-orange">
+                    <span>Back to home</span></a>
             </div>
 
-            <div class="main__col"></div>
+            <div class="main__col">
+                <div class="request-form request-form--right">
+                    <div class="request-form__header">
+                        <h3 class="request-form__title">
+                            Get Callback
+                        </h3>
+                        <div class="request-form__text">
+                            Lorem ipsum dolor sit amet.Ullam aliquam, magni eius quam nesciunt placeat.
+                        </div>
+                    </div>
+                    <div class="request-form__content">
+                        <form class="form" action="/" method="post">
+                            <div class="form__group">
+                                <input type="text" class="input input--user" placeholder="Your name">
+                            </div>
+                            <div class="form__group">
+                                <input type="tel" class="input input--phone" placeholder="Your phone">
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="input input--email" placeholder="Your email">
+                            </div>
+                            <button type="submit" class="btn btn-block btn-orange">Call me back</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
     </div><!--/ container-->
 
