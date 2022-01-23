@@ -123,7 +123,7 @@ ul {
 .intro--blog {
     height: 350px;
     background: #000 url("../images/blog-bg.jpg") no-repeat center/cover;
-    background-size: cover;
+
 }
 
 .intro--text {
@@ -715,7 +715,7 @@ ul {
     flex-direction: column;
 }
 
-.articles--column
+
 .articles__item {
     max-width: none;
     margin-bottom: 45px;
@@ -936,6 +936,7 @@ ul {
     font-size: 18px;
     line-height: 1.5;
     color: #585858;
+    margin-bottom:50px;
 
 }
 
@@ -948,30 +949,61 @@ ul {
 .text h4,
 .text h5,
 .text h6 {
-    color:#2c2c2c;
-    font-weight:700;
-    margin-bottom:20px;
+    color: #2c2c2c;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
-.text h2{
+
+.text h2 {
     font-size: 27px;
 }
-.text h3{
+
+.text h3 {
     font-size: 24px;
 }
-.text h4{
+
+.text h4 {
     font-size: 21px;
 }
-.text h5{
+
+.text h5 {
     font-size: 18px;
 }
-.text h6{
+
+.text h6 {
     font-size: 15px;
 }
 
+.text ul,
+.text ol {
+    margin-bottom: 20px;
+}
 
+.text ol {
+    list-style: decimal inside;
+}
 
+.text hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    border: 0;
+    background-color: #d1d1d1;
+}
 
-
+.text img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.text a{
+    color:#0D53F2;
+    text-decoration: none;
+}
+.text a:hover{
+    text-decoration: underline;
+}
 
 
 
