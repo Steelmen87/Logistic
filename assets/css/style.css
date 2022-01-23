@@ -123,6 +123,12 @@ ul {
 .intro--blog {
     height: 350px;
     background: #000 url("../images/blog-bg.jpg") no-repeat center/cover;
+    background-size: cover;
+}
+
+.intro--text {
+    height: 350px;
+    background: #000 url("../images/text-bg.jpg") no-repeat center/cover;
 }
 
 .intro__inner {
@@ -921,6 +927,57 @@ ul {
 .main__col {
     width: 50%;
 }
+
+/*text*/
+
+.text {
+    max-width: 890px;
+    font-family: 'PT', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #585858;
+
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.text h2,
+.text h3,
+.text h4,
+.text h5,
+.text h6 {
+    color:#2c2c2c;
+    font-weight:700;
+    margin-bottom:20px;
+}
+.text h2{
+    font-size: 27px;
+}
+.text h3{
+    font-size: 24px;
+}
+.text h4{
+    font-size: 21px;
+}
+.text h5{
+    font-size: 18px;
+}
+.text h6{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
