@@ -72,7 +72,7 @@ ul {
 .header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    height: 85px;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -81,7 +81,7 @@ ul {
 }
 
 .header--dark {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .header__inner {
@@ -114,6 +114,15 @@ ul {
 .nav__link.active {
     background-color: #004AF2;
 }
+
+/*Burger*/
+.burger {
+    background: none;
+    padding: 0;
+    border: 0;
+    display: none;
+}
+
 
 .intro {
     background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;
@@ -936,7 +945,7 @@ ul {
     font-size: 18px;
     line-height: 1.5;
     color: #585858;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 
 }
 
@@ -997,13 +1006,54 @@ ul {
     max-width: 100%;
     height: auto;
 }
-.text a{
-    color:#0D53F2;
+
+.text a {
+    color: #0D53F2;
     text-decoration: none;
 }
-.text a:hover{
+
+.text a:hover {
     text-decoration: underline;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+    .header__inner {
+        height: 50px;
+
+    }
+
+    .nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, .85);
+        height: auto;
+        min-height: calc(100vh - 50px);
+        padding-top: 5px;
+
+    }
+
+    .nav__link {
+        display: block;
+        padding: 10px 15px;
+        text-align: right;
+    }
+
+    .burger {
+        display: block;
+
+    }
+
+}
+
 
 
 
