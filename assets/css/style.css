@@ -1020,11 +1020,15 @@ ul {
 /* Media Queries */
 
 @media (max-width: 767px) {
+
+
+    /*Header*/
     .header__inner {
         height: 50px;
 
     }
 
+    /*Nav*/
     .nav {
         display: none;
         width: 100%;
@@ -1052,6 +1056,54 @@ ul {
 
     }
 
+    /*Intro*/
+    .intro__inner {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-top: 75px;
+        padding-bottom: 25px;
+    }
+
+    .intro--text {
+        order: 1;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .intro__title {
+        font-size: 90px;
+        text-align: center;
+        line-height: 80px;
+    }
+
+    .intro__title-amp {
+        font-size: 120px;
+    }
+
+    .intro__countries {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /*Request*/
+    .request-form--intro {
+        order: 2;
+        position: static;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .intro__title {
+        font-size: 60px;
+        margin-bottom: -35px;
+        line-height: 55px;
+    }
+
+    .intro__title-amp {
+        font-size: 90px;
+    }
 }
 
 
