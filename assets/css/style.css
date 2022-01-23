@@ -59,6 +59,14 @@ ul {
     padding: 0 15px;
 }
 
+/*Page*/
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
 /* Header */
 
 .header {
@@ -71,7 +79,8 @@ ul {
     right: 0;
     z-index: 1000;
 }
-.header--dark{
+
+.header--dark {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -97,7 +106,8 @@ ul {
     text-decoration: none;
     padding: 0 10px;
 }
-.nav__link:not(.active):hover{
+
+.nav__link:not(.active):hover {
     text-decoration: underline;
 }
 
@@ -109,10 +119,12 @@ ul {
     background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;
     margin-bottom: 30px;
 }
-.intro--blog{
-    height:350px;
+
+.intro--blog {
+    height: 350px;
     background: #000 url("../images/blog-bg.jpg") no-repeat center/cover;
 }
+
 .intro__inner {
     display: flex;
     height: 600px;
@@ -162,8 +174,9 @@ ul {
     position: relative;
     bottom: -30px;
 }
-.request-form--right{
-    margin-left:auto;
+
+.request-form--right {
+    margin-left: auto;
 }
 
 .request-form__header {
@@ -302,6 +315,10 @@ ul {
 
 .section--grey {
     background-color: #F9F9F9;
+}
+
+.section--last {
+    margin-bottom: 60px;
 }
 
 .section__title {
@@ -687,14 +704,17 @@ ul {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.articles--column{
+
+.articles--column {
     flex-direction: column;
 }
+
 .articles--column
-.articles__item{
+.articles__item {
     max-width: none;
     margin-bottom: 45px;
 }
+
 .articles__item {
     width: 100%;
     max-width: 500px;
@@ -732,7 +752,7 @@ ul {
 }
 
 .footer {
-    margin-top: 60px;
+    margin-top: auto;
     padding: 40px 0;
     background-color: #F9F9F9;
     background-image: url("../images/tire-left.svg"),
@@ -894,11 +914,11 @@ ul {
     display: block;
 }
 
-.main{
+.main {
     display: flex;
 }
 
-.main__col{
+.main__col {
     width: 50%;
 }
 
