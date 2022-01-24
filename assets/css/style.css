@@ -570,6 +570,7 @@ ul {
 .benefits-list:after {
     background-image: url("../images/pin-end.svg");
     bottom: -15px;
+    margin-bottom: 20px;
 }
 
 
@@ -1023,7 +1024,8 @@ ul {
     .section__title {
         text-align: center;
     }
-    .section--map{
+
+    .section--map {
         background-position: center top 130px;
     }
 
@@ -1135,6 +1137,22 @@ ul {
     .request-form--intro {
         order: 2;
         position: static;
+    }
+
+    /*Benefits*/
+    .benefits {
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .benefits__col {
+        width: 100%;
+    }
+
+    .benefits-list {
+        margin-bottom: 30px;
+        max-width: none;
     }
 
 }
