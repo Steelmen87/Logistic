@@ -109,6 +109,7 @@ ul {
     color: #ffff;
     text-decoration: none;
     padding: 0 10px;
+    transition: background .2s linear;
 }
 
 .nav__link:not(.active):hover {
