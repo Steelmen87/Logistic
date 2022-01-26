@@ -3,6 +3,7 @@ $(function () {
     let header = $("#header");
     let headerH = header.innerHeight();
     let introH = intro.innerHeight() - headerH;
+    let scrollTop = $(window).scrollTop();
     headerScroll();
     /*Header class on scroll*/
     /*изменить размер - resize*/
@@ -37,11 +38,15 @@ $(function () {
     })
     /*ScrollSpy */
     let windowH = $(window).height();
+    scrollSpy(scrollTop);
 
     $(window).on("scroll", function () {
+        scrollTop = $(this).scrollTop();
+        scrollSpy(scrollTop);
 
-        let scrollTop = $(this).scrollTop();
+    });
 
+    function scrollSpy(scrollTop) {
         $("[data-scrollspy]").each(function () {
 
             let $this = $(this);
@@ -58,8 +63,7 @@ $(function () {
                 $('#nav [data-scroll]').removeClass('active');
             }
         })
-
-    });
+    }
 
 })
 
