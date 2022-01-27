@@ -133,6 +133,7 @@ ul {
     /*background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;*/
     margin-bottom: 30px;
     position: relative;
+
 }
 
 .intro--blog {
@@ -147,15 +148,25 @@ ul {
 }
 
 .intro__slider {
+    display: none;
+
     width: 100%;
     height: 100%;
     overflow: hidden;
+
+    background: #000 url("../images/intro-bg.jpg") no-repeat center;
+    background-size: cover;
 
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
 }
+.intro__slider.slick-initialized{
+    background: #000;
+    display: block;
+}
+
 
 .intro__slider .slick-list,
 .intro__slider .slick-track {
@@ -577,7 +588,12 @@ ul {
 }
 
 .reviews .slick-dots li {
-    margin: 0 5px;
+    margin: 0 7px;
+}
+
+.reviews .slick-dots li.slick-active button {
+    background: #004AF2;
+    box-shadow: 0 0 0 5px rgba(0, 74, 242, .11);
 }
 
 .reviews .slick-dots button {
