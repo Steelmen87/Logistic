@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643202729564</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=" scrollSpy ready ++">
+      <created>1643205775930</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1643205775930</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +256,7 @@
     <MESSAGE value="@media ready" />
     <MESSAGE value="scroll ready next , scrollSpy" />
     <MESSAGE value=" scrollSpy ready" />
-    <option name="LAST_COMMIT_MESSAGE" value=" scrollSpy ready" />
+    <MESSAGE value=" scrollSpy ready ++" />
+    <option name="LAST_COMMIT_MESSAGE" value=" scrollSpy ready ++" />
   </component>
 </project>

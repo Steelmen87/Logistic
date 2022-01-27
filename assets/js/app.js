@@ -62,10 +62,72 @@ $(function () {
             if (scrollTop <= 0) {
                 $('#nav [data-scroll]').removeClass('active');
             }
-        })
+        });
     }
 
-})
+    /*Modal*/
+    $('[data-modal]').on('click', function (event) {
+        event.preventDefault();
+        let modal = $(this).data('modal');
+        $('body').addClass('no-scroll');
+        $(modal).addClass('show');
+        setTimeout(function () {
+            $(modal).find('.modal__content').css({
+                transform: 'translateY(0)',
+                opacity: '1'
+            });
+        }, 100);
+
+    });
+
+    $('[data-modal-close]').on('click', function (event) {
+        event.preventDefault();
+        let modal = $(this).parents('.modal');
+        modalClose(modal);
+
+    });
+
+
+    $('.modal').on('click', function () {
+        let modal = $(this);
+        modalClose(modal);
+
+    });
+    $('.modal__content').on('click', function (event) {
+        event.stopPropagation();/*При клике на этот элемент не будет
+        срабатывать событие клик по ее
+        родителю*/
+    });
+
+    /*Function Close____________________________________________________________*/
+    function modalClose(modal) {
+        setTimeout(function () {
+            modal.find('.modal__content').css({
+                transform: 'translateY(-100px)',
+                opacity: '0'
+            });
+        }, 100);
+        setTimeout(function () {
+            modal.removeClass('show');
+            $('body').removeClass('no-scroll');
+        }, 200);
+    }
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
