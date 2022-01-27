@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
           rel="stylesheet">
     <title>CenterLogistic</title>
+    <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
@@ -38,7 +40,24 @@
             </div>
         </div>
     </header>
+    <!--Intro-->
     <div class="intro" id="intro">
+
+        <div class="intro__slider" id="introSlider">
+            <div>
+                <img class="intro__slider-photo" src="assets/images/slide-1.jpg" alt="">
+            </div>
+            <div>
+                <img class="intro__slider-photo" src="assets/images/slide-2.jpg" alt="">
+            </div>
+        <div>
+                <img class="intro__slider-photo" src="assets/images/slide-3.jpg" alt="">
+            </div>
+        <div>
+                <img class="intro__slider-photo" src="assets/images/slide-4.jpg" alt="">
+            </div>
+        </div>
+
         <div class="container">
             <div class="intro__inner">
                 <div class="request-form request-form--intro">
@@ -70,6 +89,12 @@
                     <h1 class="intro__title">
                         <span class="intro__title-amp">&amp</span> Trans
                         <br>Logistic</h1>
+                </div>
+                <div class="intro__slider-arrows">
+                    <button id="introSliderPrev" type="button" class="intro__slider-btn intro__slider-btn-prev">Prev
+                    </button>
+                    <button id="introSliderNext" type="button" class="intro__slider-btn intro__slider-btn-next">Next
+                    </button>
                 </div>
             </div>
         </div>
@@ -465,6 +490,7 @@
 </div><!--/ modal-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 

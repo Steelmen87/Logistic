@@ -113,6 +113,26 @@ $(function () {
         }, 200);
     }
 
+
+    /*Slick - Slider https://kenwheeler.github.io/slick/*/
+    let introSlider = $('#introSlider');
+    introSlider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        speed:500
+    });
+
+    $('#introSliderPrev').on('click', function () {
+        introSlider.slick('slickPrev')
+    });
+    $('#introSliderNext').on('click', function () {
+        introSlider.slick('slickNext')
+    })
 });
 
 

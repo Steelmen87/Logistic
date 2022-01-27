@@ -130,8 +130,9 @@ ul {
 
 
 .intro {
-    background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;
+    /*background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;*/
     margin-bottom: 30px;
+    position: relative;
 }
 
 .intro--blog {
@@ -145,11 +146,70 @@ ul {
     background: #000 url("../images/text-bg.jpg") no-repeat center/cover;
 }
 
+.intro__slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.intro__slider .slick-list,
+.intro__slider .slick-track {
+    height: 100%;
+}
+
+.intro__slider-photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.intro__slider-arrows {
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+}
+.intro__slider-btn{
+    width: 0;
+    height: 0;
+    padding: 0;
+    background: none;
+    font-size: 0;
+    color: transparent;
+    cursor:pointer;
+    margin:0 3px;
+}
+
+.intro__slider-btn:focus{
+    outline: none;
+}
+
+.intro__slider-btn-prev {
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.intro__slider-btn-next {
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #fff;
+}
+
 .intro__inner {
     display: flex;
     height: 600px;
     align-items: flex-end;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
+
 }
 
 .intro__text {
@@ -182,6 +242,7 @@ ul {
     transform: translateY(-50%);
 }
 
+
 .request-form {
     max-width: 400px;
     background-color: #004AF2;
@@ -193,6 +254,7 @@ ul {
 .request-form--intro {
     position: relative;
     bottom: -30px;
+
 }
 
 .request-form--right {
@@ -940,8 +1002,9 @@ ul {
     right: -30px;
     z-index: 1;
 }
+
 .modal__close:focus {
-    outline:none;
+    outline: none;
 }
 
 .modal__close:hover {

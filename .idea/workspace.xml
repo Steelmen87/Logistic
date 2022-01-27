@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="">
+    <list default="true" id="4aa56642-b4cc-451c-9942-c19372148571" name="Default Changelist" comment="modal windows add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
@@ -16,7 +16,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -24,8 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/blog.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,8 +52,8 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Konstantin\Desktop\transportCompani\Logistic" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Music\Volac\Logistic" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +67,8 @@
       <workItem from="1641140912411" duration="1059000" />
       <workItem from="1641142468616" duration="580000" />
       <workItem from="1642677201623" duration="5471000" />
-      <workItem from="1642710856732" duration="7773000" />
+      <workItem from="1642710856732" duration="7862000" />
+      <workItem from="1642789637935" duration="12798000" />
     </task>
     <task id="LOCAL-00001" summary="Header intro next Services">
       <created>1641140990497</created>
@@ -111,112 +112,35 @@
       <option name="project" value="LOCAL" />
       <updated>1642737517947</updated>
     </task>
-    <task id="LOCAL-00007" summary="next text page">
-      <created>1642906022139</created>
+    <task id="LOCAL-00007" summary="next block interesting to read">
+      <created>1642743403661</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1642906022139</updated>
+      <updated>1642743403661</updated>
     </task>
-    <task id="LOCAL-00008" summary="next text page add + add margin auto for footer">
-      <created>1642907847884</created>
+    <task id="LOCAL-00008" summary="footer ready">
+      <created>1642792391327</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1642907847884</updated>
+      <updated>1642792391327</updated>
     </task>
-    <task id="LOCAL-00009" summary="add text --">
-      <created>1642910243722</created>
+    <task id="LOCAL-00009" summary="modal need add the cross">
+      <created>1642798052494</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1642910243722</updated>
+      <updated>1642798052494</updated>
     </task>
-    <task id="LOCAL-00010" summary="add text and text2">
-      <created>1642911686709</created>
+    <task id="LOCAL-00010" summary="modal windows add">
+      <created>1642820634713</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1642911686709</updated>
+      <updated>1642820634713</updated>
     </task>
-    <task id="LOCAL-00011" summary="Header nav mobile ready">
-      <created>1642941463650</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1642941463650</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Intro ready">
-      <created>1642951025531</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1642951025531</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Services and clients ready">
-      <created>1642993927120</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1642993927120</updated>
-    </task>
-    <task id="LOCAL-00014" summary="benefits ready">
-      <created>1642996201103</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1642996201103</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Team ready">
-      <created>1643021971297</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1643021971297</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Services ready">
-      <created>1643027307787</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1643027307787</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Modal window 18">
-      <created>1643036572020</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1643036572020</updated>
-    </task>
-    <task id="LOCAL-00018" summary="@media ready">
-      <created>1643082476114</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1643082476114</updated>
-    </task>
-    <task id="LOCAL-00019" summary="scroll ready next , scrollSpy">
-      <created>1643169356473</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1643169356473</updated>
-    </task>
-    <task id="LOCAL-00020" summary=" scrollSpy ready">
-      <created>1643202729564</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1643202729564</updated>
-    </task>
-    <task id="LOCAL-00021" summary=" scrollSpy ready ++">
-      <created>1643205775930</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1643205775930</updated>
-    </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +156,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -242,21 +165,10 @@
     <MESSAGE value="commit 05.15.01" />
     <MESSAGE value="team ok -&gt; our mission 7" />
     <MESSAGE value="i+" />
-    <MESSAGE value="next text page" />
-    <MESSAGE value="next text page add + add margin auto for footer" />
-    <MESSAGE value="add text --" />
-    <MESSAGE value="add text and text2" />
-    <MESSAGE value="Header nav mobile ready" />
-    <MESSAGE value="Intro ready" />
-    <MESSAGE value="Services and clients ready" />
-    <MESSAGE value="benefits ready" />
-    <MESSAGE value="Team ready" />
-    <MESSAGE value="Services ready" />
-    <MESSAGE value="Modal window 18" />
-    <MESSAGE value="@media ready" />
-    <MESSAGE value="scroll ready next , scrollSpy" />
-    <MESSAGE value=" scrollSpy ready" />
-    <MESSAGE value=" scrollSpy ready ++" />
-    <option name="LAST_COMMIT_MESSAGE" value=" scrollSpy ready ++" />
+    <MESSAGE value="next block interesting to read" />
+    <MESSAGE value="footer ready" />
+    <MESSAGE value="modal need add the cross" />
+    <MESSAGE value="modal windows add" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal windows add" />
   </component>
 </project>
