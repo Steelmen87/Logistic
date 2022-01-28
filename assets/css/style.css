@@ -133,7 +133,6 @@ ul {
     /*background: #000 url("../images/intro-bg.jpg") no-repeat center/cover;*/
     margin-bottom: 30px;
     position: relative;
-
 }
 
 .intro--blog {
@@ -148,7 +147,6 @@ ul {
 }
 
 .intro__slider {
-    display: none;
 
     width: 100%;
     height: 100%;
@@ -162,15 +160,31 @@ ul {
     left: 0;
     z-index: 1;
 }
-.intro__slider.slick-initialized{
-    background: #000;
-    display: block;
+
+.intro__slider .slider-item {
+    display: none;
 }
 
+.intro__slider.slick-initialized {
+    background: #04222a;
+}
+
+.intro__slider.slick-initialized .slider-item {
+    display: block;
+}
 
 .intro__slider .slick-list,
 .intro__slider .slick-track {
     height: 100%;
+}
+
+.intro__slider-item {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro__slider-photo {
@@ -1213,7 +1227,7 @@ ul {
     /*Clients*/
     .clients {
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 
     .clients__logos,
@@ -1327,6 +1341,10 @@ ul {
 
     .intro__title-amp {
         font-size: 120px;
+    }
+
+    .intro__slider-arrows {
+        display: none;
     }
 
     .intro__countries {
@@ -1501,6 +1519,12 @@ ul {
 
     .clients__list-logo {
         margin: 0 auto;
+    }
+
+    .clients-love {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
     }
 
     /*Mission*/
