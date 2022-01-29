@@ -99,6 +99,25 @@ body.show-nav .header {
 }
 
 /* Nav */
+.header__logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.header__logo-text {
+    margin-left: 15px;
+    font-family: 'PT', sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: #e8e8e8;
+    font-width: 700;
+}
+
+.header__logo-black {
+    color: #000000;
+
+}
 
 .nav {
     height: 100%;
@@ -209,7 +228,7 @@ body.show-nav .header {
     height: 100%;
     overflow: hidden;
 
-    background: #000 url("../images/intro-bg.jpg") no-repeat center;
+    background: #000 url("/assets/images/slide-1.jpg") no-repeat center;
     background-size: cover;
 
     position: absolute;
@@ -375,6 +394,9 @@ body.show-nav .header {
 }
 
 .input {
+    border: none;
+    appearance: none;
+    box-shadow: none;
     padding-left: 50px;
     transition: border-color .1s linear;
     padding-bottom: 12px;

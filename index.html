@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -14,6 +14,7 @@
     <meta name="msapplication-TileColor" content="#004AF2">
     <meta name="theme-color" content="#004AF2">
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
@@ -21,7 +22,7 @@
     <title>CenterLogistic</title>
     <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css?v=1.0.1">
 
 </head>
 
@@ -31,8 +32,9 @@
     <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
-                <a href="#" data-scroll="#intro">
+                <a class="header__logo" href="#" data-scroll="#intro">
                     <img class="img" src="assets/images/logo.svg" alt="logo">
+                    <span class="header__logo-text">CenterLogistic</span>
                 </a>
                 <nav class="nav" id="nav">
                     <a class="nav__link" href="#" data-scroll="#services">Services</a>
@@ -43,12 +45,12 @@
                     <a class="nav__link" href="#" data-scroll="#news">News</a>
                     <a class="nav__link" href="#" data-modal="#becomeClientModal">Contact Us</a>
                 </nav>
-                <bottom type="bottom" class="burger" id="navToggle">
+                <button type="button" class="burger" id="navToggle">
                     <span class="burger__line">1</span>
                     <span class="burger__line">2</span>
                     <span class="burger__line">3</span>
                     <span class="burger__line">4</span>
-                </bottom>
+                </button>
             </div>
         </div>
     </header>
@@ -102,7 +104,7 @@
                 <div class="intro__text" data-aos="fade-left">
                     <div class="intro__countries">USA, Europa, Asia</div>
                     <h1 class="intro__title">
-                        <span class="intro__title-amp">&amp</span> Trans
+                        <span class="intro__title-amp">&amp;</span> Trans
                         <br>Logistic</h1>
                 </div>
                 <div class="intro__slider-arrows">
@@ -419,7 +421,7 @@
                         a quos tempora ad maxime vel
                         repudiandae ullam voluptatibus. Voluptate, eveniet fugit.
                     </div>
-                    <time class="articles__date" pubdate datetime="21-03-2021">21 March, 2021</time>
+                    <time class="articles__date" datetime="2021-03-21">21 March, 2021</time>
                 </article>
                 <article class="articles__item" data-aos="fade-in">
                     <h4 class="articles__title">
@@ -432,7 +434,7 @@
                         a quos tempora ad maxime vel
                         repudiandae ullam voluptatibus. Voluptate, eveniet fugit.
                     </div>
-                    <time class="articles__date" pubdate datetime="21-03-2021">21 March, 2021</time>
+                    <time class="articles__date"  datetime="2021-03-21">21 March, 2021</time>
                 </article>
             </div><!--/ articles-->
             <a href="blog.html" class="btn btn-orange btn-shadow">Visit block</a>
@@ -441,7 +443,6 @@
     <!--Footer-->
     <footer class="footer">
         <div class="container">
-            <img src="assets/images/logo-black.svg" alt="">
             <address class="footer__contacts">
                 <p>New York, Street , ZIP code</p>
                 <p>Call Us: <a href="tel:+9948373123">+9948373123</a>

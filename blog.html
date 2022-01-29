@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
@@ -12,6 +13,7 @@
     <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#004AF2">
     <meta name="msapplication-TileColor" content="#004AF2">
     <meta name="theme-color" content="#004AF2">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +33,15 @@
                 <a href="index.html">
                     <img src="assets/images/logo.svg" alt="logo">
                 </a>
-                <nav class="nav">
+                <nav class="nav" id="nav">
                     <a class="nav__link" href="index.html">Home</a>
                     <a class="nav__link" href="blog.html">Blog</a>
                     <a class="nav__link" href="text.html">Privacy Policy</a>
                     <a class="nav__link" href="text2.html">Terms &amp; Conditions</a>
                 </nav>
-                <bottom type="bottom" class="burger">
+                <button type="button" class="burger" id="navToggle">
                     <img class="burger__icon" src="assets/images/burger.svg" alt="">
-                </bottom>
+                </button>
             </div>
         </div>
     </header>
@@ -47,7 +49,7 @@
     <!--intro-->
     <div class="intro intro--blog" id="intro"></div>
     <!--Main-->
-    <section class="section section--last">
+    <div class="section section--last">
         <div class="container">
             <main class="main">
                 <div class="main__col main__col--left">
@@ -66,7 +68,7 @@
                                 a quos tempora ad maxime vel
                                 repudiandae ullam voluptatibus. Voluptate, eveniet fugit.
                             </div>
-                            <time class="articles__date" pubdate datetime="21-03-2021">21 March, 2021</time>
+                            <time class="articles__date"  datetime="2021-03-21">21 March, 2021</time>
                         </article>
                         <article class="articles__item">
                             <h4 class="articles__title">
@@ -79,7 +81,7 @@
                                 a quos tempora ad maxime vel
                                 repudiandae ullam voluptatibus. Voluptate, eveniet fugit.
                             </div>
-                            <time class="articles__date" pubdate datetime="21-03-2021">21 March, 2021</time>
+                            <time class="articles__date"  datetime="2021-03-21">21 March, 2021</time>
                         </article>
                     </div><!--/ articles-->
                     <a href="index.html" class="btn btn-orange">
@@ -115,7 +117,7 @@
             </main>
         </div><!--/ container-->
 
-    </section>
+    </div>
 
     <footer class="footer">
         <div class="container">

@@ -148,7 +148,7 @@ $(function () {
         fade: true,
         autoplay: true,
         autoplaySpeed: 6000,
-        speed: 500
+        speed: 1000
     });
 
     $('#introSliderPrev').on('click', function () {
